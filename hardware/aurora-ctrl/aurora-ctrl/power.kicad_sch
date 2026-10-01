@@ -5,4 +5,50 @@
 	(uuid "19a2df9a-4ecf-40f6-9a14-e3c9deeee980")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 17.78 186.69)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fa701549-8457-49c4-a980-ca5f9f788cb8")
+		(property "Sheetname" "12V_Buck1"
+			(at 17.78 185.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_12v_sch.kicad_sch"
+			(at 17.78 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aurora-ctrl"
+				(path "/be3cfc26-2ede-416c-b0d2-d4a4334eaee3/4092f569-4a59-4d42-aaa9-629788cd0217"
+					(page "9")
+				)
+			)
+		)
+	)
 )
