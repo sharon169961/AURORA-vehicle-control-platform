@@ -1159,7 +1159,7 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.254)
+				(thickness 0.508)
 				(bold yes)
 			)
 		)
@@ -1206,12 +1206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81dcd94e-2e8c-4d07-8b9a-25cd5a6c2ef4")
-	)
-	(junction
-		(at 124.46 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8933eff7-19a8-4217-9b49-ae6c7adee3ea")
 	)
 	(junction
 		(at 118.11 157.48)
@@ -1307,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 130.81 76.2)
+			(xy 104.14 76.2) (xy 130.81 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1764,16 +1758,6 @@
 			(type default)
 		)
 		(uuid "910114ed-b4f0-4bba-8058-b597a23301c6")
-	)
-	(wire
-		(pts
-			(xy 104.14 76.2) (xy 124.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f9c813-74b4-44f1-b312-300c63d26af4")
 	)
 	(wire
 		(pts
@@ -2653,84 +2637,6 @@
 			(project "aurora-ctrl"
 				(path "/be3cfc26-2ede-416c-b0d2-d4a4334eaee3/4092f569-4a59-4d42-aaa9-629788cd0217/fa701549-8457-49c4-a980-ca5f9f788cb8"
 					(reference "Cin_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 124.46 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ccac29f-d61d-496f-92e2-ab5fadf01e88")
-		(property "Reference" "#FLG01"
-			(at 124.46 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 124.46 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d7ecebd-6826-419b-bd1e-fc7484fa22e2")
-		)
-		(instances
-			(project "aurora-ctrl"
-				(path "/be3cfc26-2ede-416c-b0d2-d4a4334eaee3/4092f569-4a59-4d42-aaa9-629788cd0217/fa701549-8457-49c4-a980-ca5f9f788cb8"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
