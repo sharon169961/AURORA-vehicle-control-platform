@@ -44,6 +44,8 @@ This project was designed module-by-module with every component value backed by 
 - **Hardware-level motor kill switch** — a physical E-stop directly shorts the gate driver's ENABLE pin to ground, overriding any MCU/firmware state
 - **TVS-less input protection** — LM74701-Q1's integrated VDS clamp meets automotive transient requirements without a discrete TVS diode
 - **Reverse-polarity protection via ideal diode controller**, not a passive series diode — avoids the forward-voltage power loss of a traditional diode-OR input stage
+<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/88138bde-2478-4389-9d08-9486028f4c48" />
+
 
 ## Tech Stack
 
