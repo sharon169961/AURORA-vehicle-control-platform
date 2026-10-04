@@ -52,9 +52,7 @@ This project was designed module-by-module with every component value backed by 
 
 | Motor Drive Stage | Power Tree | MCU Core |
 |---|---|---|
-| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5dec2b5b-58cf-4edb-a4b0-f7341199da69" />
- |<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5484ba2a-2215-4b9c-b47a-86d9d499f999" />
-| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/9de352f8-575a-483f-86d4-6093d849a365" />|
+| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5dec2b5b-58cf-4edb-a4b0-f7341199da69" />|<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5484ba2a-2215-4b9c-b47a-86d9d499f999" />| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/9de352f8-575a-483f-86d4-6093d849a365" />|
 | DRV8323S SPI gate driver, 6x PWM, Kelvin-sense current monitoring | 36V → 12V → 5V → 3.3V cascaded regulation, TVS-less input protection | MSPM0G3507 hub — CAN-FD, SPI, I2C, UART, SWD, 3-ch ADC |
 
 Full schematic (all 6 sheets): [`docs/schematic-full.pdf`](docs/schematic-full.pdf)
