@@ -4,6 +4,9 @@
 
 > Status: **Rev A** — schematic design complete, PCB layout in progress. Built in KiCad 10.
 
+<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/d7bac2c2-5179-4eda-bd2d-65c2d12fb7b5" />
+
+
 ---
 
 ## Overview
@@ -44,8 +47,17 @@ This project was designed module-by-module with every component value backed by 
 - **Hardware-level motor kill switch** — a physical E-stop directly shorts the gate driver's ENABLE pin to ground, overriding any MCU/firmware state
 - **TVS-less input protection** — LM74701-Q1's integrated VDS clamp meets automotive transient requirements without a discrete TVS diode
 - **Reverse-polarity protection via ideal diode controller**, not a passive series diode — avoids the forward-voltage power loss of a traditional diode-OR input stage
-<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/88138bde-2478-4389-9d08-9486028f4c48" />
 
+## Schematic Highlights
+
+| Motor Drive Stage | Power Tree | MCU Core |
+|---|---|---|
+| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5dec2b5b-58cf-4edb-a4b0-f7341199da69" />
+ |<img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/5484ba2a-2215-4b9c-b47a-86d9d499f999" />
+| <img width="1381" height="973" alt="image" src="https://github.com/user-attachments/assets/9de352f8-575a-483f-86d4-6093d849a365" />|
+| DRV8323S SPI gate driver, 6x PWM, Kelvin-sense current monitoring | 36V → 12V → 5V → 3.3V cascaded regulation, TVS-less input protection | MSPM0G3507 hub — CAN-FD, SPI, I2C, UART, SWD, 3-ch ADC |
+
+Full schematic (all 6 sheets): [`docs/schematic-full.pdf`](docs/schematic-full.pdf)
 
 ## Tech Stack
 
